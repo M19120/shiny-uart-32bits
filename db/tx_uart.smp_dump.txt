@@ -1,0 +1,7 @@
+
+State Machine - |tx_uart|state
+Name state.tx_stop_bits state.tx_databits state.tx_start state.tx_idle 
+state.tx_idle 0 0 0 0 
+state.tx_start 0 0 1 1 
+state.tx_databits 0 1 0 1 
+state.tx_stop_bits 1 0 0 1 
